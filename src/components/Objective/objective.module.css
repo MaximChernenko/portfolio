@@ -1,0 +1,43 @@
+.section {
+    margin-bottom: 20px;
+}
+
+.title {
+    position: relative;
+    width: 174px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 346px;
+    right: 110%;
+    height: 2px;
+    background-color: #333333;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 345px;
+    left: 110%;
+    height: 2px;
+    background-color: #333333;
+}
+
+.content {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.icon {
+    margin-right: 6px;
+}

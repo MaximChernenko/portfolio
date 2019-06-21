@@ -1,0 +1,11 @@
+.wrapper {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+}

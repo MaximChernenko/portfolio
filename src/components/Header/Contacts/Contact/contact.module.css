@@ -1,0 +1,21 @@
+.link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.link:hover {
+    color: #ffc0cb;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon:hover {
+    fill: #ffc0cb;
+}

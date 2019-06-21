@@ -1,0 +1,54 @@
+.section {
+    margin-bottom: 20px;
+}
+
+.title {
+    position: relative;
+    width: 266px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 295px;
+    right: 108%;
+    height: 2px;
+    background-color: #333333;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 295px;
+    left: 108%;
+    height: 2px;
+    background-color: #333333;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+.groupper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.list {
+    width: 252px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 6px;
+}

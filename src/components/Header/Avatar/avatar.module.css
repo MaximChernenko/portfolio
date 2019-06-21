@@ -1,0 +1,27 @@
+.wrapper {
+    width: 300px;
+    height: 288px;
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 300px;
+    z-index: 1;
+}
+
+.backdrop {
+    position: absolute;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: linear-gradient(to right, #131313 20%, #686767 40%, #414141 40%);
+}

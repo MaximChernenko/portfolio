@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    background-color: #414141;
+}
+
+.groupper {
+    align-self: center;
+    padding-left: 20px;
+}
