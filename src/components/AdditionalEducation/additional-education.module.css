@@ -13,33 +13,43 @@
     color: #333333;
 }
 
-.title::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 260px;
-    right: 107%;
-    height: 2px;
-    background-color: #333333;
-}
-
-.title::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 260px;
-    left: 107%;
-    height: 2px;
-    background-color: #333333;
-}
-
 .icon {
     margin-right: 6px;
 }
 
-.groupper {
-    width: 620px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+@media(max-width: 767px) {
+    .title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .years {
+        margin-bottom: 6px;
+    }
+}
+
+@media(min-width: 768px) {
+    .title::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 264px;
+        right: 106%;
+        height: 2px;
+        background-color: #333333;
+    }
+    .title::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 264px;
+        left: 106%;
+        height: 2px;
+        background-color: #333333;
+    }
+    .groupper {
+        width: 620px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
 }

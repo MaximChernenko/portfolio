@@ -13,26 +13,6 @@
     color: #333333;
 }
 
-.title::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 299px;
-    right: 108%;
-    height: 2px;
-    background-color: #333333;
-}
-
-.title::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 299px;
-    left: 108%;
-    height: 2px;
-    background-color: #333333;
-}
-
 .icon {
     margin-right: 6px;
 }
@@ -44,4 +24,32 @@
 
 .item:not(:last-child) {
     margin-bottom: 6px;
+}
+
+@media(max-width: 767px) {
+    .title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+}
+
+@media(min-width: 768px) {
+    .title::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 299px;
+        right: 108%;
+        height: 2px;
+        background-color: #333333;
+    }
+    .title::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 299px;
+        left: 108%;
+        height: 2px;
+        background-color: #333333;
+    }
 }

@@ -1,3 +1,9 @@
+@media(max-width: 767px) {
+    .wrapper {
+        margin: 0 auto 10px;
+    }
+}
+
 .wrapper {
     width: 300px;
     height: 288px;

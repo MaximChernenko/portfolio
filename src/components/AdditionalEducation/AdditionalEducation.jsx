@@ -18,7 +18,7 @@ const AdditionalEducation = () => (
       Additional Education
     </h2>
     <div className={s.groupper}>
-      <p>2018 - 2019</p>
+      <p className={s.years}>2018 - 2019</p>
       <p>
         <b>GoIT</b> | In this course I studied: html, css, javascript, react and
         redux.

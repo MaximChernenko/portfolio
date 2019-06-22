@@ -13,35 +13,45 @@
     color: #333333;
 }
 
-.title::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 338px;
-    right: 112%;
-    height: 2px;
-    background-color: #333333;
-}
-
-.title::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 338px;
-    left: 112%;
-    height: 2px;
-    background-color: #333333;
-}
-
 .icon {
     margin-right: 6px;
 }
 
-.list {
-    width: 586px;
-    margin: 0 auto;
-}
-
 .item:not(:last-child) {
     margin-bottom: 6px;
+}
+
+@media(max-width: 767px) {
+    .title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .list {
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .title::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 339px;
+        right: 112%;
+        height: 2px;
+        background-color: #333333;
+    }
+    .title::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 339px;
+        left: 112%;
+        height: 2px;
+        background-color: #333333;
+    }
+    .list {
+        width: 586px;
+        margin: 0 auto;
+    }
 }
