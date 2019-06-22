@@ -3,9 +3,7 @@
     align-items: center;
     color: #ffffff;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 .link:hover {

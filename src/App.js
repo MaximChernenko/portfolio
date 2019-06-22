@@ -30,8 +30,8 @@ const App = () => (
       <Work />
       <Education />
       <AdditionalEducation />
-      <Footer />
     </main>
+    <Footer />
   </div>
 );
 
