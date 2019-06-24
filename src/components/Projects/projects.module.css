@@ -27,8 +27,8 @@
 }
 
 .link {
+    line-height: 1.5;
     color: #333333;
-    text-decoration: none;
 }
 
 .link:hover {
@@ -52,6 +52,7 @@
         height: 2px;
         background-color: #333333;
     }
+
     .title::after {
         content: '';
         position: absolute;

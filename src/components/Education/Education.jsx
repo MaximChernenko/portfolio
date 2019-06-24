@@ -13,13 +13,13 @@ const Education = () => (
       Education
     </h2>
     <ul className={s.list}>
-      <li className={s.item}>Duration - 2016 - 2020</li>
+      <li className={s.item}>Duration : 2016 - 2020</li>
       <li className={s.item}>
-        University - National Technical University of Ukraine 'Kyiv Polytechnic
+        University : National Technical University of Ukraine 'Kyiv Polytechnic
         Institute'
       </li>
       <li className={s.item}>
-        Specialty - Automation and computer-integrated technologies
+        Specialty : Automation and computer-integrated technologies
       </li>
     </ul>
   </section>

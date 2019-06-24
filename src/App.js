@@ -9,7 +9,6 @@ import TechnicalSkills from "./components/TechnicalSkills/TechnicalSkills";
 import SoftSkills from "./components/SoftSkills/SoftSkills";
 import Languages from "./components/Languages/Languages";
 import Projects from "./components/Projects/Projects";
-import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
 import AdditionalEducation from "./components/AdditionalEducation/AdditionalEducation";
 import Footer from "./components/Footer/Footer";
@@ -27,7 +26,6 @@ const App = () => (
       <SoftSkills skills={softSkills} />
       <Languages />
       <Projects />
-      <Work />
       <Education />
       <AdditionalEducation />
     </main>
