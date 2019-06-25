@@ -19,7 +19,7 @@ const Header = () => (
       <Contacts
         mail="chernenko.maxim.14@gmail.com"
         mobile="+380663529389"
-        skype="chernenko.maksym.14"
+        skype="chernenko.maxim.14"
         location="Kiev, Urkaine"
         github="https://github.com/MaximChernenko"
         linkedin="https://www.linkedin.com/in/maksym-chernenko"
